@@ -1,0 +1,617 @@
+<!doctype html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>INFINITY | Multipurpose Responsive Theme</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+
+
+    <!-- Web Fonts -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/blueprint-css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/blueprint-css/style.css" type="text/css">
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+</head>
+
+
+<body>
+	<div class="container">
+
+		<div class="doc-logo margin-tp-25 margin-bt-20">
+			<img src="assets/images/Navidesign.png">
+		</div>
+
+		<div class="main-headline margin-bt-20">
+			<div class="title">INFINITY | Multipurpose Template Version v1.4.0</div>
+		</div>
+		
+		<div class="row">
+			<div class="details">
+				<div class="col-sm-4">
+					<div class="date-details inner-padding WhiteSkin margin-bt-20">
+						<span style="font-weight:bold">Created :</span> 2014 08 February<br>
+						<span style="font-weight:bold">By :</span> <a href="http://themeforest.net/user/NAVIDESIGN"> NAVIDESIGN</a><br>
+						<span style="font-weight:bold">Support :</span> <a href="http://themeforest.net/user/NAVIDESIGN">NAVIDESIGN</a>
+					</div>
+		
+					<div class="table-wrapper WhiteSkin">
+				        <div class="heading">
+				            <div class="headline">
+				                <h4 id="toc">Table of Contents</h4>
+				            </div>
+				        </div>
+
+						<ul class="table-content inner-padding">
+							<li><a href="#htmlStructure">HTML Structure & Installation</a></li>
+							<li><a href="#cssFiles">CSS Files and Structure</a></li>
+							<li><a href="#javascript">JavaScript</a></li>
+							<li><a href="#psdFiles">PSD Files</a></li>
+							<li><a href="#widgets">Widgets</a></li>
+							<li><a href="#changelog">Changelog</a></li>
+							<li><a href="#credits">Sources and Credits</a></li>
+							<li><a href="#Disclaimer">Disclaimer</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-8">
+					<div class="intro inner-padding WhiteSkin">
+						<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/NAVIDESIGN?WT.ac=item_profile_text&WT.z_author=NAVIDESIGN">here</a>. I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. Thanks so much!</p>
+					
+						<div class="features">
+							<h3><strong>Template Features</strong></h3>
+							<ul>
+							    <li><i class="fa fa-dot-circle-o"></i>Fully responsive based on bootstrap v3</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Master Slider(Worth $15)</li>
+							    <li><i class="fa fa-dot-circle-o"></i>2 Boxed(960) and 7 Full Width Slider</li>
+							    <li><i class="fa fa-dot-circle-o"></i>4 Variant Color Scheme</li>
+							    <li><i class="fa fa-dot-circle-o"></i>3 Variant Porfolio Column Size</li>
+							    <li><i class="fa fa-dot-circle-o"></i>960 Grid Based</li>
+							    <li><i class="fa fa-dot-circle-o"></i>439+ Fontawesome icons</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Isotope jQuery Plugin</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Thoroughly Documented</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Google Fonts</li>
+							    <li><i class="fa fa-dot-circle-o"></i>29 HTML Files</li>
+							    <li><i class="fa fa-dot-circle-o"></i>PSDs Included in Package(Worth $10)</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Cross Browser Compatible – tested in IE; Firefox; Safari; Chrome and Opera.</li>
+							</ul>
+						</div>
+						<div class="features">
+							<h3><strong>New Features</strong></h3>
+							<ul>
+							    <li><i class="fa fa-dot-circle-o"></i>jQuery Cookie Plugin</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Google Search (SVC)</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Search Auto Complete</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Google Analytics</li>
+							    <li><i class="fa fa-dot-circle-o"></i>Twitter Feed</li>
+							    <li><i class="fa fa-dot-circle-o"></i>and ...</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="htmlStructure" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">HTML STRUCTURE</span>
+        </div>
+
+
+
+		<p>The general template structure is the same throughout the template. Here is the general structure.</p>
+		
+		<pre class="brush: html; syntaxhighlighter">
+			&lt;!doctype html&gt;
+			&lt;html&gt;
+
+			&lt;head&gt;
+			    <!--
+			    --------------------------------------------------------
+			    
+			    Template Information
+			    
+			    --------------------------------------------------------
+			    
+			    Author: IncisiveStudio
+			    Author Name: Mohammad Shaker
+			    Author URI: http://IncisiveStudio.com
+			    Template Name: INFINITY
+			    Description: Responsive HTML5 Template
+			    Graphic Designer: Navid Qasemi
+			    Version: 1.4.0
+
+			    --------------------------------------------------------
+			    -->
+
+			    <!-- Basic -->
+			    &lt;meta charset="utf-8"&gt;
+			    &lt;title&gt;INFINITY | Multipurpose Responsive Theme&lt;/title&gt;
+			    &lt;meta name="keywords" content="html5,css3,jquery,portfolio,creative,design" /&gt;
+			    &lt;meta name="description" content="IncisiveStudio" /&gt;
+			    &lt;meta name="author" content="IncisiveStudio" /&gt;
+
+
+			    <!-- Mobile Metas -->
+			    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+			    &lt;link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /&gt;
+
+
+			    <!-- Web Fonts -->
+			    &lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
+			    &lt;link rel="stylesheet" href="css/custom-font.css"&gt;
+			    &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'&gt;
+
+
+			    &lt;link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" /&gt;
+			    &lt;link rel="stylesheet" href="js/jQuery-OwlCarousel2/owlcarousel/owl.carousel.css"&gt;
+			    &lt;link rel="stylesheet" href="js/jQuery-OwlCarousel2/owlcarousel/owl.theme.css"&gt;
+			    &lt;link rel="stylesheet" href="js/jQuery-fancyBox/source/jquery.fancybox.css" type="text/css" /&gt;
+			    &lt;link rel="stylesheet" href="js/jQuery-mediaElement/build/mediaelementplayer.css" /&gt;
+			    &lt;link rel="stylesheet" href="css/plugins.css" type="text/css" /&gt;
+
+
+			    <!-- Theme CSS -->
+			    &lt;link rel="stylesheet" href="css/style.css?1.4.0" id="colorStyle"&gt;
+			    &lt;script src="js/prefixfree.min.js" type="text/javascript">&lt;/script&gt;
+
+
+			    <!-- Responsive CSS -->
+			    &lt;link rel="stylesheet" href="css/theme-responsive.css" type="text/css" /&gt;
+
+
+			    <!-- Less Files -->
+			    &lt;link rel="stylesheet/less" href="css/skins/skin.less" type="text/css" /&gt;
+			    &lt;script src="css/skins/less-1.7.0.min.js" type="text/javascript">&lt;/script&gt;
+
+
+			    <!-- Head Libs -->
+			    &lt;script src="js/modernizr.js">&lt;/script&gt;
+
+			    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			    <!--[if lt IE 9]>
+			      <script src="js/jQuery-html5shiv/src/html5shiv.js"></script>
+			      <script src="js/jQuery-Respond/dest/respond.min.js"></script>
+			    <![endif]-->
+		</pre>
+		<br>
+		<br>
+
+		<h3><strong>A.I) Installation</strong></h3>
+		<p>
+			Infinity is HTML template so there's no really "installation" required just unzip the main file you've downloaded from Themeforest and after unziping you have your all template ready to be used.
+		</p>
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="cssFiles" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">CSS FILES & STRUCTURE</span>
+        </div>
+
+
+        <h3><strong>B.I) HEAD/CSS Structure</strong></h3>
+		<p>I'm using one main CSS file in this theme.This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.
+		</p>
+			<pre class="brush: html; syntaxhighlighter">
+			    <!-- Theme CSS -->
+			    &lt;link rel="stylesheet" href="css/style.css?1.4.0" id="colorStyle"&gt;
+			    &lt;script src="js/prefixfree.min.js" type="text/javascript">&lt;/script&gt;
+
+
+			    <!-- Responsive CSS -->
+			    &lt;link rel="stylesheet" href="css/theme-responsive.css" type="text/css" /&gt;
+
+
+			    <!-- Less Files -->
+			    &lt;link rel="stylesheet/less" href="css/skins/skin.less" type="text/css" /&gt;
+			    &lt;script src="css/skins/less-1.7.0.min.js" type="text/javascript">&lt;/script&gt;
+
+
+			    <!-- Web Fonts -->
+			    &lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
+			    &lt;link rel="stylesheet" href="css/custom-font.css"&gt;
+			    &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'&gt;
+			</pre>
+		<br>
+		<br>
+
+
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+		<br>
+		<br>
+
+
+		<h3><strong>B.II) Google Web Fonts</strong></h3>
+			<pre class="brush: html; syntaxhighlighter">
+			    <!-- Web Fonts -->
+			    &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'&gt;
+			</pre>
+
+			Remember to change the font into <strong>style.css</strong>
+			<pre class="brush: css; syntaxhighlighter">
+				/* style.css / Line 124 */
+			    body {
+				    background: none repeat scroll 0 0 #EBEBEB;
+				    color: #221918;
+				    font-size: 14px;
+				    font-family: "Open Sans",Arial,sans-serif;
+				    line-height: 21px;
+				    cursor: default;
+				}
+			</pre>
+		<br>
+		<br>
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="javascript" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">JAVASCRIPT</span>
+        </div>
+		
+		<p> The theme main javascript file is located at "./js/". </p>
+		<p> Plugins & Libs used by Infinty Theme: </p>
+		
+		<ol>
+			<li>jQuery <a href="http://jquery.com/">http://jquery.com</a></li>
+			<li>jQuery Infinty Scroll</li>
+			<li>jQuery Google Maps</li>
+			<li>jQuery Infinti Scroll</li>
+			<li>jQuery Nivo Slider</li>
+			<li>jQuery Bx Slider</li>
+			<li>jQuery Fancy Box</li>
+			<li>jQuery Owl Carousel 2</li>
+			<li>jQuery Isotope <a href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co</a></li>
+			<li>jQuery Retina  <a href="http://retinajs.com/">http://retinajs.com</a></li>
+			<li>html5shiv <a href="https://github.com/aFarkas/html5shiv">https://github.com/aFarkas/html5shiv</a></li>
+			<li>Respond  <a href="http://responsejs.com/">http://responsejs.com</a></li>
+			<li>jQuery Fittext  <a href="http://fittextjs.com/">http://fittextjs.com</a></li>
+			<li>jQuery Knob Plugin <a href="http://anthonyterrien.com/knob/">http://anthonyterrien.com/</a></li>
+			<li>MaterSlider <a href="http://codecanyon.net/item/master-slider-responsive-touch-swipe-slider/6337671">http://masterslider.com/</a></li>
+			<li>JQuery Modernizer</li>
+			<li>jQuery Prefix Free</li>
+			<li>JQuery Cookie</li>
+			<li>JQuery Media Element Video and Audio Player</li>
+			<li>JQuery Auto Complete</li>
+			<li>JQuery Easing</li>
+		</ol>
+
+
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="psdFiles" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">PSD FILES</span>
+        </div>
+		
+		I've Included All PSD With This Theme :
+		
+			<ul class="margin-bt-25 margin-tp-25 psd-list">
+				<li><i class="fa fa-caret-right"></i>01_Home.psd</li>
+				<li><i class="fa fa-caret-right"></i>02_Home2.psd</li>
+				<li><i class="fa fa-caret-right"></i>03_Services.psd</li>
+				<li><i class="fa fa-caret-right"></i>04_Service.psd</li>
+				<li><i class="fa fa-caret-right"></i>05_About.psd</li>
+				<li><i class="fa fa-caret-right"></i>06_Blog.psd</li>
+				<li><i class="fa fa-caret-right"></i>07_Blog_Post.psd</li>
+				<li><i class="fa fa-caret-right"></i>08_Portfolio_2column.psd</li>
+				<li><i class="fa fa-caret-right"></i>09_Portfolio_3column.psd</li>
+				<li><i class="fa fa-caret-right"></i>10_Portfolio_4column.psd</li>
+				<li><i class="fa fa-caret-right"></i>11_Portfolio.psd</li>
+				<li><i class="fa fa-caret-right"></i>12_Contacts.psd</li>
+				<li><i class="fa fa-caret-right"></i>13_404.psd</li>
+				<li><i class="fa fa-caret-right"></i>14_Grid.psd</li>
+				<li><i class="fa fa-caret-right"></i>15_Blue color.psd</li>
+				<li><i class="fa fa-caret-right"></i>16_Green color.psd</li>
+				<li><i class="fa fa-caret-right"></i>17_Violet color.psd</li>
+			</ul>
+		
+		If You'd Like to Change the Main Logo in the Header, Open "logo.psd", Make the Necessary Adjustments, and then Save the File as "logo.png"  in <b>/images/main-logo/</b> Location
+		
+
+
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="widgets" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">WIDGETS</span>
+        </div>
+
+
+		<h3><strong>E.I) Google Search (CSE)</strong></h3>
+		Remember to change the Search ID into <strong>search-results.html</strong>
+			<pre class="brush: javascript; syntaxhighlighter">
+			    // Line 330
+	    		(function() {
+					var cx = 'Your ID Here';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//www.google.com/cse/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+
+			</pre>
+		<br>
+		<br>
+
+
+		<h3><strong>E.II) Twitter Feed</strong></h3>
+		Remember to change the Twitter ID into <strong>vendor/twitter.js</strong>
+			<pre class="brush: javascript; syntaxhighlighter">
+			    // Line 103
+	    		twitterFetcher.fetch('Your ID Here', 'twitter', 4, true, true, false);
+
+			</pre>
+		<br>
+		<br>
+
+
+		<h3><strong>E.III) Google Analytics</strong></h3>
+		Remember to change the Google Analytics ID into <strong>index.html</strong>
+			<pre class="brush: javascript; syntaxhighlighter">
+			    // Line 988
+		        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		        ga('create', 'Your ID Here', 'Your Website Here');
+		        ga('send', 'pageview');
+
+			</pre>
+		<br>
+		<br>
+
+
+		<h3><strong>E.IV) Auto Complete</strong></h3>
+		Remember to change the currencies/suggestions edit <strong>vendor/jQuery-autoComplete/currency-autocomplete.js</strong>
+			<pre class="brush: javascript; syntaxhighlighter">
+
+				var currencies = [
+					{ value: 'Lorem Ipsum' },
+					{ value: 'Consectetur Adipiscing Elit' },
+					{ value: 'Pellentesque Habitant' },
+					{ value: 'Vestibulum Scelerisque' },
+					{ value: 'Malesuada Fames' },
+					{ value: 'Lorem Ipsum Dolor Sit Amet' }
+				];
+
+			</pre>
+		<br>
+		<br>
+		
+
+
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="changelog" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">CHANGELOG</span>
+        </div>
+		
+
+
+		<strong>Version 1.4</strong> - 29 Jun 08 
+			<ul class="change-log margin-bt-25 margin-tp-25">
+				<li><i class="fa fa-plus"></i> Added - Percent "%" Sign to "Experiences"</li>
+				<li><i class="fa fa-plus"></i> Added - LESS Functionality</li>
+				<li><i class="fa fa-plus"></i> Added - Owl Carousel 2 to Portfolio</li>
+				<li><i class="fa fa-plus"></i> Added - Owl Carousel 2 to Our Clients</li>
+				<li><i class="fa fa-plus"></i> Added - Testimonials Title</li>
+				<li><i class="fa fa-plus"></i> Added - Testimonials Panel Subtitle</li>
+				<li><i class="fa fa-plus"></i> Added - Search Ability</li>
+				<li><i class="fa fa-plus"></i> Added - Page Search-results.html</li>
+				<li><i class="fa fa-plus"></i> Added - Freeprefix.js Add Prefix To Unsupported Properties</li>
+				<li><i class="fa fa-plus"></i> Added - Twitter API</li>
+				<li><i class="fa fa-plus"></i> Added - Pin to Map + POP UP Location</li>
+				<li><i class="fa fa-plus"></i> Added - Perfect Responsive Operating to Comments</li>
+				<li><i class="fa fa-plus"></i> Added - Comment's Reply Icon</li>
+				<li><i class="fa fa-plus"></i> Added - Two Quotation in blockquote</li>
+				<li><i class="fa fa-plus"></i> Added - Contact Us Submit Button Turn to (SENDING ...) With Loading in it</li>
+				<li><i class="fa fa-plus"></i> Added - More Responsive Operating to All Pages</li>
+				<li><i class="fa fa-plus"></i> Added - Exclusive Checkboxs</li>
+				<li><i class="fa fa-plus"></i> Added - Faster And Light Weight Style Switcher</li>
+				<li><i class="fa fa-plus"></i> Added - jQuery Cookie</li>
+				<li><i class="fa fa-plus"></i> Added - Google Analytics</li>
+				<li><i class="fa fa-plus"></i> Added - Search Auto Complete</li>
+				<li><i class="fa fa-plus"></i> Added - Full Screen Video Background Slider</li>
+				<li><br /></li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Reduced Skin's Size from 216kb to 16.7kb and Increased Load Speed (With LESS)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - All Controls and Theme.js</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Portfolio Hover Effect and Our Member Hover Effect</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Testimonials Tab Changing Effect (fade out)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Recent Work Title Font Size</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - New Project Arrows Color</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Fonts (Seperated FontAwesome from Custom Fonts)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Carets in Navigations</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Social Icons in Header Improved (Transition Hover Effect and Response-oriented)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Better Responsive Perating in Navigation</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Newsletter Response-oriented + Optimized for Screen Readers</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Search Function For All Search Inputs</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - All Arrows Optimaized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Video and Audio Player Optimaized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Video and Audio Player Icons Optimaized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Blog Navigation Optimized and Now Have Better Responsiveness</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Customized Blog Navigation's Filters</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Customized Twitter Widget (Buttons and Structure)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Author Info Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Comments Section Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Avatars Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Author Post's Socials Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Google Map Plugin Optimized (Zoom, Custom Pin, etc...)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Blog Navigation's Filters Optimized (in Display and etc ...)</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Services Carousel Tab Content Now Have Fade Effect</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Special Widget Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Services Carousel Now Is Perfectly Responsive</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Portfolio Single Slider's Arrows Customized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Portfolio Designer Dection Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - MediaElement Organized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Better Responsive Operating to Blog Left Sidebar</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Screen Readers Improvements</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - All Pages Customized and Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Portfolio Navigation Optimized</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Sliders of Portfolio, New Project, Recent Works All Changed</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - CSS and CEO Optimization</li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Main Slider (Buttons Works Now)</li>
+				<li><br /></li>
+				<li><i class="fa fa-wrench"></i> Fixed - Circles in Footer Had 1px Inset Border</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Style Switcher in Chrome</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Changing Color of Knob (Experiences Cirecles)</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Video Player Volume Range Background</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Blog.html Font Size Fixed in IE11</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Blog.html Meta Info Fixed in IE11</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Audio Player Volume Fixed in IE and Chrome</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Article's Image Fixed in Chrome</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Video Player Preloader's Image</li>
+				<li><i class="fa fa-wrench"></i> Fixed - All Form's Reset Buttons Works Now</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Services Carousel Fixed in FF and Chrome (1px Offset)</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Services Carousel Controls Fixed (z-index)</li>
+				<li><i class="fa fa-wrench"></i> Fixed - All Arrows Fixed in Chrome (they were not centred)</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Main Slider Buttons Fixed in Chrome</li>
+				<li><i class="fa fa-wrench"></i> Fixed - Contact Us Image Loading</li>
+				<li><br /></li>
+				<li><i class="fa fa-refresh"></i> Updated - Owl Carousel from v1 to v2</li>
+				<li><i class="fa fa-refresh"></i> Updated - Isotope from 1.5.25 to 1.5.26</li>
+				<li><i class="fa fa-refresh"></i> Updated - Knob to 1.2.8</li>
+				<li><i class="fa fa-refresh"></i> Updated - BxSlider 4.1.1 to 4.1.2</li>
+				<li><i class="fa fa-refresh"></i> Updated - jQuery Updated to New Version</li>
+				<li><i class="fa fa-refresh"></i> Updated - html5shiv Updated to New Version</li>
+				<li><i class="fa fa-refresh"></i> Updated - Retina Plugin to v1.3</li>
+				<li><i class="fa fa-refresh"></i> Updated - Fittex Plugin to v1.2</li>
+				<li><i class="fa fa-refresh"></i> Updated - Video and Audio Player Updated to 2.14.2</li>
+			</ul>
+		
+
+
+		<strong>Version 1.2.4</strong> - 1 March 14
+			<ul class="change-log margin-bt-25">
+				<li><i class="fa fa-plus"></i> Added - Second Level Menu</li>
+				<li><i class="fa fa-plus"></i> Added - Post Format: Audio, Video, Blockquote, Link Format</li>
+				<li><i class="fa fa-plus"></i> Added - Exclusive Audio and Video Player</li>
+				<li><br /></li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Removing Widgets</li>
+				<li><br /></li>
+				<li><i class="fa fa-refresh"></i> Updated - Masterslider</li>
+			</ul>
+		
+
+
+		<strong>Version 1.2</strong> - 27 January 14 
+			<ul class="change-log margin-bt-25">
+				<li><i class="fa fa-plus"></i> Added - Gallery, Layers, Partial View, Tabs, Video Slider</li>
+				<li><i class="fa fa-plus"></i> Added - Blog Left Sidebar Page</li>
+				<li><i class="fa fa-plus"></i> Added - Columns Page</li>
+				<li><i class="fa fa-plus"></i> Added - Typography Page</li>
+				<li><i class="fa fa-plus"></i> Added - Icons Page</li>
+				<li><i class="fa fa-plus"></i> Added - Elements Page</li>
+				<li><i class="fa fa-plus"></i> Added - Master Slider</li>
+				<li><i class="fa fa-plus"></i> Added - JQuery Modernizer</li>
+				<li><br /></li>
+				<li><i class="fa fa-stethoscope"></i> Improved - Well Commented CSS & HTML Files</li>
+				<li><br /></li>
+				<li><i class="fa fa-wrench"></i> Fixed - Some Bugs</li>
+			</ul>
+		
+
+
+		<strong>Version 1.0.0</strong> - 2 January 14
+			<ul class="change-log margin-bt-25">
+				<li>- Initial Release</li>
+			</ul>
+		<br />
+		<br />
+		
+
+
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="credits" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">SOURCE & CREADITS</span>
+        </div>
+		
+		
+		I've Used the Following Images, Icons and etc as Listed.
+		
+		<ul>
+			<li>Open Sans Font <a href="http://www.google.com/webfonts/specimen/Open+Sans">open sans</a></li>
+			<li>Bootstrap v3</li>
+			<li>ShutterStock Images (only in demo) Please note that the preview images are not included within the download file.</li>
+			<li>jQuery Library</li>
+			<li>Font Awesome <a href="http://fontawesome.io/">http://fontawesome.io</a></li>
+		</ul>
+		<br />
+		<br />
+		
+
+
+
+	    <!--
+	    ============================================
+	    Special Divider
+	    ============================================= -->
+        <div id="Disclaimer" class="special-divider">
+            <a href="#toc"><span class="statistics"><i class="fa fa-chevron-up"></i></span></a>
+            <span class="subtitle">Disclaimer</span>
+        </div>
+		
+		
+		Pleae Note That Twitter,Search and Style Switcher(in Chrome and IE) Dosn't Works on Local Host.<br />
+		All images are just used for preview purpose only and NOT included in the final purchase files.
+		<br />
+		<br />
+		<br />
+		<br />
+		
+		<h2><strong><a href="http://themeforest.net/user/NAVIDESIGN">NAVIDESIGN</a></strong></h2>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="assets/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+</body>
+</html>

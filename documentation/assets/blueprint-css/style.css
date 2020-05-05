@@ -1,0 +1,144 @@
+/*  HTML5 BOILERPLATE RESET FILE
+-----------------------------------------------------------  */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*! Font Faces */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/Regular/OpenSans-Regular.eot');
+  src: url('../fonts/Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Regular/OpenSans-Regular.woff') format('woff'),
+       url('../fonts/Regular/OpenSans-Regular.ttf') format('truetype'),
+       url('../fonts/Regular/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Primary Styles
+-----------------------------------------------------------  */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: none repeat scroll 0 0 #EBEBEB;
+    color: #221918;
+    font-size: 14px;
+    font-family: "Open Sans",Arial,sans-serif;
+    line-height: 21px;
+    cursor: default;
+}
+
+/*  Typography
+-----------------------------------------------------------  */
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:focus {outline: 0;text-decoration: none;}
+h1 {font-size: 32px;}
+h2 {font-size: 21px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 13px;}
+h6 {font-size: 12px;}
+small {font: 11px 'Arial';}
+strong {font-weight: 600;}
+p {font: 13px/21px "Open Sans",Arial,sans-serif;}
+p.UpperCase:first-letter {font-size: 60px;color: #FF9311;text-transform: uppercase;}
+blockquote {background: none repeat scroll 0 0 #F6F6F6;padding: 34px 54px 34px;color: #A1A1A1;font-style: italic;position: relative;margin: 0 0 20px;}
+blockquote:before {position: absolute;content: '\f10d';top: 20px;left: 14px;font-size: 24px;color: #555555;font-family: "FontAwesome";font-style: normal;}
+blockquote:after {position: absolute;content: '\f10e';bottom: 20px;right: 14px;font-size: 24px;color: #555555;font-family: "FontAwesome";font-style: normal;}
+
+/*  Miscellaneous
+-----------------------------------------------------------  */
+.large-size {font-size: 72px;}
+
+.margin-bt-10 {margin-bottom: 10px;}
+.margin-bt-15 {margin-bottom: 15px;}
+.margin-bt-20 {margin-bottom: 20px;}
+.margin-bt-25 {margin-bottom: 25px;}
+.margin-bt-30 {margin-bottom: 30px;}
+
+.margin-tp-10 {margin-top: 10px;}
+.margin-tp-15 {margin-top: 15px;}
+.margin-tp-20 {margin-top: 20px;}
+.margin-tp-25 {margin-top: 25px;}
+.margin-tp-30 {margin-top: 30px;}
+
+.WhiteSkin {background: none repeat scroll 0 0 #FFFFFF;box-shadow: 0 1px 2px rgba(0, 0, 0,.1);}
+.padding-tp-20 {padding-top: 20px !important;}
+
+.active-btn {background: none repeat scroll 0 0 #FF9311 !important;}
+
+.hide-padding-left {padding-left: 0 !important;}
+.hide-padding-right {padding-right: 0 !important;}
+
+.remove-gutter-padding {padding-right: 0 !important;padding-left: 0 !important;}
+
+.hide-visibility {visibility: hidden;}
+.show-visibility {visibility: visible;}
+
+
+.doc-logo {text-align: left;}
+
+.main-headline {display: block;width: 100%;height: 50px;background: none repeat scroll 0 0 #FF9311;}
+.main-headline .title {text-align: center;color: #FFFFFF;line-height: 50px;font-size: 
+18px;}
+
+/*  Special Divider
+-----------------------------------------------------------  */
+.special-divider {clear: both;text-align: center;height: 2px;margin: 60px auto 100px;position: relative;width: 100%;background-color: #dedede;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);}
+.special-divider span.statistics {background-color: #282828;top: -40px;position: absolute;border-radius: 50%;border: 12px solid #ebebeb;margin-left: -40px;color: #FFFFFF;font-size: 24px;line-height: 54px;left: 50%;width: 80px;height: 80px;}
+.special-divider span.subtitle {color: #282828;font: 16px 'Open Sans';left: 0;position: absolute;right: 0;text-align: center;text-transform: uppercase;top: 36px;}
+
+.inner-padding {padding: 20px 20px 20px;}
+
+.heading {background: none repeat scroll 0 0 #FF9311;padding: 0 0 0 12px;position: relative;display: block;height: 30px;}
+.heading .headline {color: #FFFFFF;line-height: 30px;text-align: left;}
+
+.features {padding: 20px 0 0;}
+.features ul {padding: 8px 20px 0;}
+.features ul li {font-size: 13px;}
+.features ul li i {color: #FF9311;padding-right: 16px;}
+
+
+
+.psd-list {margin: 24px 0;border: 4px dashed #999999;overflow: hidden;}
+.psd-list li {color: #189a99;display: block;padding: 4px 20px;}
+.psd-list li:nth-of-type(even) {background: none repeat scroll 0 0 #d8d8d8;}
+.psd-list li:nth-of-type(odd) {background: none repeat scroll 0 0 #f1f1f1;}
+.psd-list li i {color: #af7ac4;}
+
+.change-log {}
+.change-log li {color: #189a99;display: block;padding: 4px 20px;}
+.change-log li:first-child {margin-top: 16px;}
+.change-log li:nth-of-type(odd) {background: none repeat scroll 0 0 #d8d8d8;}
+.change-log li:nth-of-type(even) {background: none repeat scroll 0 0 #f1f1f1;}
