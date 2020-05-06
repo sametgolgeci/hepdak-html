@@ -162,7 +162,7 @@ blockquote:after {position: absolute;content: '\f10e';bottom: 20px;right: 14px;f
 .padding-tp-20 {padding-top: 20px !important;}
 
 .post-content > p > strong {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .active-btn {background: none repeat scroll 0 0 #FF9311 !important;}
